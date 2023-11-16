@@ -1,0 +1,8 @@
+../Core/Src/drv_bmp280.c:31:5:BMP280_check	24	static
+../Core/Src/drv_bmp280.c:57:5:BMP280_init	24	static
+../Core/Src/drv_bmp280.c:92:5:BMP280_Write_Reg	32	static
+../Core/Src/drv_bmp280.c:115:10:BMP280_Read_Reg	32	static
+../Core/Src/drv_bmp280.c:134:14:BMP280_get_temperature	16	static
+../Core/Src/drv_bmp280.c:152:5:BMP280_get_pressure	16	static
+../Core/Src/drv_bmp280.c:170:14:BMP280_compensate_temp	32	static
+../Core/Src/drv_bmp280.c:180:14:BMP280_compensate_press	328	static
