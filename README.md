@@ -14,6 +14,7 @@ Premièrement, dans le main il faut appeler la fonction BMP280_check afin de vé
 
 
 La configuration du moteur (utilisation du bus CAN) :
+
 Pour communiquer avec le moteur, nous allons utiliser le bus CAN. Pour cela, il faut avoir un baudrate précis qui ici est de 500kbit/s. Pour cela nous avons : 
 - Prescaler de 12        
 - Time Quanta in Bit Segment 1 = 3 times
