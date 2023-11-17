@@ -13,6 +13,7 @@ La configuration du BMP280 :
 Premièrement, dans le main il faut appeler la fonction BMP280_check afin de vérifier s'il y a bien un périphérique relié à l'i2C. Ensuite, nous avons la fonction "bmp280_init" qui va permettre d'initialiser le capteur avec le mode et la calibration que l'on veut. Après, il aut appeler la fonction "BMP280_get_temperature" ou "BMP280_get_pressure" suivant si on veut la temperature ou la pression. Et enfin, nous avons les fonctions permettant la calibration des données, ces fonctions servent à avoir des valeurs qui soient compréhensibles et interprétables.
 
 
+
 La configuration du moteur (utilisation du bus CAN) :
 
 Pour communiquer avec le moteur, nous allons utiliser le bus CAN. Pour cela, il faut avoir un baudrate précis qui ici est de 500kbit/s. Pour cela nous avons : 
